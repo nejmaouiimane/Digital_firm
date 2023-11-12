@@ -3,4 +3,57 @@
 
 /* amine */
 
+/* !MAIN DIV 2 */
+
+.s2_main2{
+    height: 50vh;
+    width: 99vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* !H1_main2 */
+
+.h1_main2{
+    color: rgb(55, 55, 212);
+    font-family: monospace;
+}
+
+.h1_main2_2{
+    color: rgb(55, 55, 212);
+    font-family: monospace;
+}
+
+.h1_main2_3{
+    color: rgb(55, 55, 212);
+    font-family: monospace;
+}
+.p2_main2{
+    color: rgb(151, 151, 151);
+    font-family: monospace;
+}
+
+.icons_main2{
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* !button1_main2 */
+
+.button1_main2{
+    font-family: monospace;
+    background-color: rgb(237, 28, 36);
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+
+}
+
+
 /* imane */
