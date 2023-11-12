@@ -116,158 +116,6 @@
 
 
 /* amine */
-
-/* imane */
-.container {
-    display: flex;
-    flex-direction: column;
-    height: 40vh;
-    width: 100vw;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-.text {
-    font-size: 25px;
-    align-items: start;
-    width: 60vw;
-    margin-left: 25%;
-
-}
-
-.text~h1 {
-    color: purple;
-}
-
-/* button */
-.btn-ima {
-    color: white;
-    background-color: red;
-    font-size: 20px;
-    width: 15vw;
-    height: 4vh;
-    border: 1px solid rgb(1, 55, 110);
-    border-radius: 50px;
-
-}
-
-.btn-ima:hover {
-    background-color: rgba(202, 125, 222, 255);
-    color: white;
-
-}
-
-/* contact */
-.emailsubject {
-    width: 70%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.two {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    width: 38vw;
-    gap: 0.5vw;
-
-}
-
-input {
-    width: 36vw;
-    height: 60px;
-    padding: 10px;
-    box-sizing: border-box;
-    margin-left: 2px;
-    border: solid 2px rgb(72, 72, 123);
-    border-radius: 7px;
-    background-color: rgb(230, 240, 240);
-    font-size: 20x;
-    font-style: italic;
-    text-align: center;
-    justify-content: right;
-
-}
-
-.message {
-    height: 15vh;
-    padding: 10px;
-    box-sizing: border-box;
-    margin-bottom: 10px;
-    border-radius: 19px;
-    box-shadow: 2%;
-    width: 38vw;
-    font-size: 40px;
-    font-style: italic;
-    text-align: center;
-    justify-content: right;
-
-
-}
-
-/* footer */
-.doob {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 60vh;
-    background-color: rgb(72, 72, 123);
-    justify-content: space-between;
-    text-align: center;
-    font-size: 40px;
-}
-
-.text h5:nth-child(1) {
-    color: rgb(72, 72, 123);
-    font-size: 28px;
-    font-family: "Lucida Console", "Courier New", monospace;
-}
-
-.doob h5 {
-    color: white;
-}
-
-h1:nth-child(2) {
-    color: red;
-    font-size: 50px;
-}
-
-a {
-    color: white;
-    font-size: 40px;
-    text-decoration: none;
-}
-
-p {
-    color: white;
-    font-size: 15px;
-
-}
-
-.choices {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    width: 40vw;
-    margin-left: 30%;
-    font-style: none;
-}
-
-.socialmedia {
-    font-size: 60px;
-    justify-content: space-around;
-    justify-content: center;
-    width: 100vw;
-    color: white;
-
-}
-
-.loun {
-    color: white;
-}
-/* !MAIN DIV 2 */
-
 .s2_main2{
     height: 50vh;
     width: 99vw;
@@ -281,11 +129,16 @@ p {
 .h1_main2{
     color: rgb(55, 55, 212);
     font-family: monospace;
+    font-size: larger;
 }
-
 .h1_main2_2{
     color: rgb(55, 55, 212);
     font-family: monospace;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
 }
 
 .h1_main2_3{
@@ -298,14 +151,11 @@ p {
 }
 
 .icons_main2{
-    font-size: xx-large;
+    font-size: 50px;
     display: flex;
     justify-content: center;
 }
-
-
 /* !button1_main2 */
-
 .button1_main2{
     font-family: monospace;
     background-color: rgb(237, 28, 36);
@@ -315,8 +165,134 @@ p {
     color: white;
     cursor: pointer;
     font-weight: bold;
+}
+
+/* imane */
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.text {
+    font-size: 25px;
+    align-items: start;
+    width: 60vw;
+    margin-left: 25%;
+}
+.text~h1 {
+    color: purple;
+}
+/* button */
+.btn-ima {
+    color: white;
+    background-color: red;
+    font-size: 20px;
+    width: 15vw;
+    height: 5vh;
+    border: 1px solid rgb(1, 55, 110);
+    border-radius: 50px;
 
 }
 
-
+.btn-ima:hover {
+    background-color: white;
+    color: red;
+}
+/* contact */
+.emailsubject {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.two {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 38vw;
+    gap: 0.5vw;
+}
+input {
+    width: 36vw;
+    height: 60px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-left: 2px;
+    border: solid 2px rgb(72, 72, 123);
+    border-radius: 7px;
+    background-color: rgb(230, 240, 240);
+    font-size: 20x;
+    font-style: italic;
+    text-align: center;
+    justify-content: right;
+}
+.message {
+    height: 15vh;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    border-radius: 19px;
+    box-shadow: 2%;
+    width: 38vw;
+    font-size: 40px;
+    font-style: italic;
+    text-align: center;
+    justify-content: right;
+}
+/* footer */
+.doob {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 60vh;
+    background-color: rgb(72, 72, 123);
+    justify-content: space-around;
+    align-items: center;
+    font-size: 40px;
+}
+.text h5:nth-child(1) {
+    color: rgb(72, 72, 123);
+    font-size: 28px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+.creative {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+.choices a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+.choices a:hover {
+    color: red;
+}
+.kamel{
+    color: white;
+    font-size: 17px;
+}
+.choices  {
+    font-size: smaller;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 60vw;
+}
+.socialmedia {
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    color: white;
+}
+.socialmedia a {
+    text-decoration: none;
+    color: white;
+}
+.footer_logo {
+    color: white;
+    width: 50Px;
+}
 /* imane */
