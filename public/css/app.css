@@ -1,5 +1,119 @@
 /* hamza */
 
+*{
+    margin: 0;
+    padding:0;
+}
+/** nav_bar */
+.nav_bar{
+    width: 100vw;
+    height: 8vh;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/** nav_bar logo */
+.nav_bar img{
+    width: 40px;
+}
+/* *nav bar links */
+.nav_pages{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: smaller;
+    font-family: Helvetica, sans-serif,Arial;
+    font-weight: 500;
+}
+.pages_link{
+    text-decoration: none;
+    color: rgb(1, 55, 110);
+}
+.pages_link:hover{
+    background-color: rgb(235, 233, 233);
+    border-radius: 50px;
+    width: 20%;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn_cnt{
+    cursor: pointer;
+    background: none;
+    font-size: small;
+    width: 9%;
+    height: 5vh;
+    border:1px solid rgb(1, 55, 110) ;
+    color: rgb(237,28,36);
+    border-radius: 50px;
+}
+.btn_cnt:hover{
+    background-color: rgb(237,28,36);
+    color: white;
+    border: none;
+}
+/** first section */
+.s1_main{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.first_section{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.s2_leftside{
+    width: 25%;
+    height: 30vh;
+    font-size:large;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.s1_buttons{
+    width:100%;
+}
+.red_button{
+    background-color: rgb(237, 28, 36);
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+.white_button{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+    color: rgb(1, 55, 110);
+    cursor: pointer;
+}
+.red_button:hover{
+    background-color: rgb(250, 74, 80);
+
+}
+.white_button:hover{
+    background-color: rgb(219, 219, 219);
+}
+.s2_rightside{
+    width: 40%;
+}
+.s2_rightside img{
+    width: 100%;
+}
+
 
 /* amine */
 
