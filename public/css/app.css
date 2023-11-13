@@ -6,9 +6,7 @@
 }
 /** nav_bar */
 .nav_bar{
-    width: 100vw;
     height: 8vh;
-    /* background-color: blue; */
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -58,7 +56,6 @@
 }
 /** first section */
 .s1_main{
-    width: 100vw;
     height: 80vh;
     display: flex;
     justify-content: center;
@@ -118,7 +115,6 @@
 /* amine */
 .s2_main2{
     height: 50vh;
-    width: 99vw;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -166,6 +162,11 @@
     cursor: pointer;
     font-weight: bold;
 }
+.button1_main2:hover{
+    color: rgb(237, 28, 36);
+    background-color: white;
+    border:1px solid rgb(237, 28, 36);
+}
 
 /* imane */
 .container {
@@ -187,18 +188,19 @@
 /* button */
 .btn-ima {
     color: white;
-    background-color: red;
+    background-color:  rgb(237,28,36);
     font-size: 20px;
     width: 15vw;
     height: 5vh;
-    border: 1px solid rgb(1, 55, 110);
+    border: none;
     border-radius: 50px;
-
+    cursor: pointer;
 }
 
 .btn-ima:hover {
     background-color: white;
-    color: red;
+    color:  rgb(237,28,36);
+    border:solid 2px rgb(72, 72, 123) ;
 }
 /* contact */
 .emailsubject {
@@ -230,16 +232,12 @@ input {
 }
 .message {
     height: 15vh;
-    padding: 10px;
-    box-sizing: border-box;
-    margin-bottom: 10px;
-    border-radius: 19px;
+    border-radius: 10px;
     box-shadow: 2%;
     width: 38vw;
-    font-size: 40px;
+    font-size: 15px;
     font-style: italic;
-    text-align: center;
-    justify-content: right;
+    border: solid 2px rgb(72, 72, 123);
 }
 /* footer */
 .doob {
@@ -267,7 +265,7 @@ input {
     text-decoration: none;
 }
 .choices a:hover {
-    color: red;
+    color:  rgb(237,28,36);
 }
 .kamel{
     color: white;
@@ -290,6 +288,9 @@ input {
 .socialmedia a {
     text-decoration: none;
     color: white;
+}
+.socialmedia a:hover {
+    color:  rgb(237,28,36);
 }
 .footer_logo {
     color: white;
